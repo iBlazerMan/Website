@@ -1,0 +1,82 @@
+iframe {
+	border-width: 3px;
+	border-color: cyan;
+}
+
+body {
+	background-image: url("Images/space background.jpg");
+}
+
+.HeaderMenu {
+	width: auto;
+	height: 80px;
+	margin-left: 300px;
+}
+
+.SlideShow {
+	width: 300px;
+	height: 198px;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.NavMenu {
+	width: 300px;
+	height: 495px;
+	position: absolute;
+	top: 210px;
+	left: 8px;
+}
+
+.Content {
+	width: auto;
+	height: 620px;
+	margin-left: 305px;
+}
+
+.Footer {
+	width: 100%;
+	height: 140px;
+}
+
+.TitleBox {
+	background-color: #E0E0E0;
+	padding: 10px;
+	border: solid 2pt cyan;
+	border-radius: 30%;
+	text-align: center;
+	font-family: Lucida Handwriting;
+}
+
+.ContentBox {
+	background-color: #CCE5FF;
+	padding: 15px;
+	border: solid 2pt cyan;
+	border-radius: 15px;
+	text-align: center;
+	font-family: Papyrus;
+	text-indent: 20px;
+}
+
+.Button {
+	background-color: #668aff;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+img.display { 
+	margin-right:50px;
+	margin-top:30px;
+	width: 25%;
+	height: 25%;
+	border: 1px solid red;
+	border-radius: 20px;
+}
+
+img.bordered {
+	border: 3px solid #0000CC;
+	border-radius: 20px;
+}
