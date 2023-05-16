@@ -68,6 +68,14 @@ body {
 	font-family: Comic Sans MS;
 }
 
+.welcome {
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+	color: cyan;
+	font-family: Lucida Handwriting;
+}
+
 img.display { 
 	margin-right:50px;
 	margin-top:30px;
