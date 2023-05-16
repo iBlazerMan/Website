@@ -4,47 +4,48 @@
   <meta charset="utf-8">
   <title>Slide Show</title>
   <style>
- /* slideshow  */
-body {background: lightyellow; margin:0;}
-div#slider {overflow:hidden;width:50%; }
-div#slider figure img {height:100%; width:10%; float:left;}
-div#slider figure {
-position: absolute;
-width: 1000%;
-height: 100%;
-margin:0;
-left:0;
-animation-name: slider;
-animation-duration: 40s;
-animation-iteration-count: 3; /* infinite */
-}
+    /* slideshow  */
+    body {background: lightyellow; margin:0;}
+    div#slider {overflow:hidden;width:50%; }
+    div#slider figure img {height:100%; width:10%; float:left;}
+    div#slider figure {
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+    margin:0;
+    left:0;
+    animation-name: slider;
+    animation-duration: 40s;
+    animation-iteration-count: 3; /* infinite */
+    }
 
-@keyframes slider { /* % animation complete */
-   0%  {left:0%;}         /* pic 1 */
-   10% {left:0%;}
-   10% {left:-100%;}     /* pic 2 */
-   20% {left:-100%;}
-   20% {left:-200%;}     /* pic 3 */
-   30% {left:-200%;}
-   30% {left:-300%;}     /* pic 4 */
-   40% {left:-300%;}
-   40% {left:-400%;}     /* pic 5 */
-   50% {left:-400%;}
-   50% {left:-500%;}     /* pic 6 */
-   60% {left:-500%;}
-   60% {left:-600%;}     /* pic 7 */
-   70% {left:-600%;}
-   70% {left:-700%;}     /* pic 8 */
-   80% {left:-700%;}
-   80% {left:-800%;}     /* pic 9 */
-   90% {left:-800%;}
-   90% {left:-900%;}     /* pic 10 */
-   100%{left:-900%;}
-}
-  </style>
+    @keyframes slider { /* % animation complete */
+      0%  {left:0%;}         /* pic 1 */
+      10% {left:0%;}
+      10% {left:-100%;}     /* pic 2 */
+      20% {left:-100%;}
+      20% {left:-200%;}     /* pic 3 */
+      30% {left:-200%;}
+      30% {left:-300%;}     /* pic 4 */
+      40% {left:-300%;}
+      40% {left:-400%;}     /* pic 5 */
+      50% {left:-400%;}
+      50% {left:-500%;}     /* pic 6 */
+      60% {left:-500%;}
+      60% {left:-600%;}     /* pic 7 */
+      70% {left:-600%;}
+      70% {left:-700%;}     /* pic 8 */
+      80% {left:-700%;}
+      80% {left:-800%;}     /* pic 9 */
+      90% {left:-800%;}
+      90% {left:-900%;}     /* pic 10 */
+      100%{left:-900%;}
+    }
+      </style>
   </head>
+
   <body>
-   <div id="slider">
+    <div id="slider">
         <figure>
             <img src="Images/P47 Blueprint.jpg">
             <img src="Images/Spitfire Blueprint.jpg">
